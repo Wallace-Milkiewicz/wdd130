@@ -15,3 +15,13 @@ All photos come from Wikimedia Commons and were resized/cropped and converted to
 Social icons (facebook.svg, instagram.svg, youtube.svg): Simple Icons, https://simpleicons.org, CC0 1.0.
 
 logo.webp: original artwork created for this site.
+
+## Contact page (employees)
+
+| File | Source | Author | License |
+| --- | --- | --- | --- |
+| employee1.webp | https://commons.wikimedia.org/wiki/File:BLM_Idaho_River_Ranger_Evan_Worthington_(49034992212).jpg | BLM Idaho | Public domain |
+| employee2.webp | https://commons.wikimedia.org/wiki/File:US_Forest_Service_River_Ranger_rowing_on_the_North_Fork_of_the_Flathead_River_(42251994750).jpg | Glacier NPS | Public domain |
+| employee3.webp | https://commons.wikimedia.org/wiki/File:A_river_ranger_rows_through_Marble_Canyon_on_the_Colorado_River-November_2023_(53428308202).jpg | Grand Canyon NPS | Public domain |
+
+Employee names on the page are fictional.

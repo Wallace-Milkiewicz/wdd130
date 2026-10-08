@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact White Water Rafting: find our address, phone, email and office map, send us a message, and meet the guides who will take care of you on the river.">
+  <meta name="author" content="Wallace Milkiewicz">
+  <title>Contact Us | White Water Rafting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/webp" href="images/logo.webp">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.webp" alt="White Water Rafting logo: yellow circle with blue waves" width="300" height="150">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h1>White Water Rafting</h1>
+      <address>
+        <p>4120 Kolob Canyon Road<br>New Harmony, Utah 84757</p>
+        <p><a href="tel:+14355550199">+1 435 555 0199</a></p>
+        <p><a href="mailto:info@wwrafting.com">info@wwrafting.com</a></p>
+      </address>
+    </section>
+
+    <div class="contact-grid">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m3!2m1!1sKolob+Canyons+Visitor+Center,+Utah!6i12" width="400" height="400" title="Google Map showing the White Water Rafting office near Kolob Canyons, Utah" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+
+      <form method="get" action="contact.html" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <fieldset>
+          <legend>Message Purpose</legend>
+          <label class="choice"><input type="radio" id="general" name="purpose" value="general" checked> General Inquiry</label>
+          <label class="choice"><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label>
+          <label class="choice"><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label>
+        </fieldset>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="How can we help you?" required></textarea>
+
+        <label class="choice"><input type="checkbox" id="newsletter" name="newsletter" value="yes"> Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Get in Touch!</button>
+      </form>
+    </div>
+
+    <section class="employees">
+      <h2>We Are Here to Serve You</h2>
+      <div class="team">
+        <figure>
+          <img src="images/employee1.webp" alt="Marcus in a helmet and red jacket rowing a loaded raft through white water" width="400" height="400" loading="lazy">
+          <figcaption>Marcus Reed &ndash; Head River Guide</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee2.webp" alt="Jordan in a life jacket pulling the oars of a blue raft on a calm river" width="400" height="400" loading="lazy">
+          <figcaption>Jordan Blake &ndash; Safety Coordinator</figcaption>
+        </figure>
+        <figure>
+          <img src="images/employee3.webp" alt="Hannah rowing a gear-filled raft between tall red canyon walls" width="400" height="400" loading="lazy">
+          <figcaption>Hannah Cole &ndash; Trip Planner</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 White Water Rafting | Wallace Milkiewicz | WDD 130</p>
+    <nav class="socialmedia">
+      <a href="https://www.facebook.com" target="_blank" rel="noopener">
+        <img src="images/facebook.svg" alt="Facebook" width="32" height="32">
+      </a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener">
+        <img src="images/instagram.svg" alt="Instagram" width="32" height="32">
+      </a>
+      <a href="https://www.youtube.com" target="_blank" rel="noopener">
+        <img src="images/youtube.svg" alt="YouTube" width="32" height="32">
+      </a>
+    </nav>
+  </footer>
+</body>
+</html>
