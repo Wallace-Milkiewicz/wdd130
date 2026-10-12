@@ -25,3 +25,11 @@ logo.webp: original artwork created for this site.
 | employee3.webp | https://commons.wikimedia.org/wiki/File:A_river_ranger_rows_through_Marble_Canyon_on_the_Colorado_River-November_2023_(53428308202).jpg | Grand Canyon NPS | Public domain |
 
 Employee names on the page are fictional.
+
+## Home page
+
+| File | Source | Author | License |
+| --- | --- | --- | --- |
+| home-hero.webp | https://commons.wikimedia.org/wiki/File:Day_1_-_All_four_rafts_at_the_rapids_(53019802277).jpg | BLM Utah | Public domain |
+
+The Trips page and the Home page offerings reuse the adventure and history images listed above. Trip prices and details are fictional.
